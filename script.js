@@ -9,8 +9,7 @@ btn.addEventListener('click', () => {
       item.style.display = 'none';
     }
   })
-  console.log(selectedItem.children);
-
+  
   for (let i = 0; i < selectedItem.length; i++){
     if (selectedItem[i].style.display != 'none') {
       selectedItem.selectedIndex = index;
